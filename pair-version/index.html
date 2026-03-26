@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager - Pair</title>
+</head>
+<body>
+  <h1>Task Manager (Pair Version)</h1>
+
+  <input id="taskInput" placeholder="Enter task" />
+  <button onclick="addTask()">Add</button>
+
+  <div>
+    <button onclick="filterTasks('all')">All</button>
+    <button onclick="filterTasks('active')">Active</button>
+    <button onclick="filterTasks('completed')">Completed</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
